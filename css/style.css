@@ -216,3 +216,16 @@ a.link-allstyles {
 a:hover {
   opacity: 0.85;
 }
+
+/* For responsive design */
+@media (max-width: 768px) {
+  nav ul {   /* To stack navigation items vertically on small screens */
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* To reduce container padding on small screens */
+  .container {
+    padding: 1rem;
+  }
+}
