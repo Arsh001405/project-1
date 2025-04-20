@@ -39,3 +39,30 @@ body {
   top: 0;
 }
 
+/* For header styling */
+header {
+  background: #00838f; /* Background color */
+  color: #fff; /* For white text */
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 5px solid #006064;
+}
+
+/* To style the main header text */
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/* To style the sub-header text */
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* To style header links */
+header p a {
+  color: #e0f7fa;
+  text-decoration: underline;
+}
+
