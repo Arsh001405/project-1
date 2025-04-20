@@ -66,3 +66,50 @@ header p a {
   text-decoration: underline;
 }
 
+/* For github link and button to star */
+.link-github {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #004d40;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Github icon in link*/
+.link-github svg {
+  width: 1rem;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+/* Navigation  styles */
+/* Color for the navigation bar */
+nav {
+  background: #006064;
+}
+
+/* For unordered list inside nav */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* For list items inside nav */
+nav a {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for nav links */
+nav a:hover {
+  background: #004d40;
+}
